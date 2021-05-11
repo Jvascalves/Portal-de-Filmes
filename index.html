@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PlayMovie</title>
+
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- 
+            *******************
+                Navbar - Menu
+            *******************
+        -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo_playmoovie.png" alt="" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Lançamentos |</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Em destaque |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Avaliações |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"
+                                >Entrevistas & Making of |</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novidades </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Pesquisa"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-light" type="submit">
+                            Pesquisar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 
+            ******************************
+            Section Lançamntos - carossel
+            *****************************
+        -->
+        <section id="lancamentos">
+            <div class="container-fluid">
+                <h2 class="text-center py-4">Lançamentos</h2>
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe
+                                            width="560"
+                                            height="315"
+                                            src="https://www.youtube.com/embed/Gj2iCJkp6Ko"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                        ></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Love death + Robots</h3>
+                                    <p>
+                                        A Netflix divulgou o primeiro teaser
+                                        legendado de
+                                        <b>Love, Death + Robots</b>, a antologia
+                                        animada capitaneada por
+                                        <b>David Fincher</b> (de Clube da Luta)
+                                        e <b>Tim Miller</b> (de Deadpool).
+                                        Segundo a sinopse, o seriado contará 18
+                                        histórias que abordam diversos aspectos
+                                        da humanidade, incluindo guerra, racismo
+                                        e governo. Fincher e Miller comandam o
+                                        projeto com artistas do mundo inteiro
+                                        que desenvolvem as histórias com
+                                        diversos estilos de animação que vão
+                                        desde os mais tradicionais ao 3D
+                                        realista. David Fincher e Tim Miller
+                                        comandam o projeto.
+                                    </p>
+                                    <p><b>Diretor:</b> David Fincher</p>
+                                    <p><b>Roteiro:</b> Tim Miller (via BMD)</p>
+                                    <p><b>Estreia:</b> 2021</p>
+
+                                    <h4>Elenco</h4>
+                                    <p>
+                                        Topher Grace | Mary Elizabeth | Gary
+                                        Cole
+                                    </p>
+                                    <h4>Avaliação</h4>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe
+                                            width="560"
+                                            height="315"
+                                            src="https://www.youtube.com/embed/_ak5dFt8Ar0"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                        ></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>The Mitchells vs. the Machines</h3>
+                                    <p>
+                                        Quando Katie Mitchell é aceita na escola
+                                        de cinema dos seus sonhos, seus planos
+                                        de conhecer "sua tribo" ficam abalados
+                                        quando seu pai, decide que toda a
+                                        família deve fazer uma derradeira
+                                        viagem, antes dela ir para a faculdade.
+                                        Os planos dos Mitchells são
+                                        interrompidos por uma revolta
+                                        tecnológica. Os dispositivos eletrônicos
+                                        decidem que é hora de assumir o
+                                        controle. Com a ajuda de dois robôs que
+                                        não funcionam corretamente, os Mitchells
+                                        terão que superar seus problemas e
+                                        trabalhar juntos para salvar um ao outro
+                                        e ao mundo.
+                                    </p>
+                                    <p><b>Diretor:</b> Michael Rianda</p>
+                                    <p>
+                                        <b>Roteiro:</b> Mike Rianda | Jeff Rowe
+                                    </p>
+                                    <p><b>Estreia:</b> 2021</p>
+
+                                    <h4>Elenco</h4>
+                                    <p>
+                                        Abbi Jacobson | Danny McBride | Maya
+                                        Rudolph | Mike Rianda | Eric Andre |
+                                        Olivia Colman | Blake Griffin
+                                    </p>
+                                    <h4>Avaliação</h4>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe
+                                            width="560"
+                                            height="315"
+                                            src="https://www.youtube.com/embed/bYoz5b-pUPU"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                        ></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Space Jam 2: Um Novo Legado</h3>
+                                    <p>
+                                        Continuação do clássico Space Jam: O
+                                        Jogo do Século (1996), estrelado por
+                                        Michael Jordan, considerado um dos
+                                        maiores jogadores de basquete de todos
+                                        os tempos.
+                                        <b>"Space Jam: Um Novo Legado"</b>
+                                        chegará aos cinemas 25 anos após o longa
+                                        estrelado por Michael Jordan. No novo
+                                        filme, os Looney Tunes enfrentarão uma
+                                        nova ameaça nas quadras, desta vez com a
+                                        ajuda de <b>LeBron James</b>,
+                                        considerado um dos melhores jogadores de
+                                        basquete da atualidade. LeBron James
+                                        usou sua influência para manter a
+                                        produção viva.
+                                    </p>
+                                    <p><b>Diretor:</b> Malcolm D. Lee</p>
+                                    <p>
+                                        <b>Roteiro:</b> Ryan Coogler | Sev
+                                        Ohanian
+                                    </p>
+                                    <p><b>Estreia:</b> 2021</p>
+
+                                    <h4>Elenco</h4>
+                                    <p>Jogadores da NBA e WNBA</p>
+                                    <h4>Avaliação</h4>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/4pNSBlQgulc"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                        ></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Hitman's Wife's Bodyguard</h3>
+                                    <p>
+                                        <b>Hitman's Wife's Bodyguard</b> é uma
+                                        comédia de ação e sequência do filme de
+                                        2017 The Hitman's Bodyguard. Quatro anos
+                                        após o filme original, Michael Bryce
+                                        está em uma empresa com mandato sabático
+                                        quando Sonia Kincaid, a esposa do
+                                        assassino Darius Kincaid, com quem Bryce
+                                        compartilha uma amizade desconfortável,
+                                        salva sua vida em uma tentativa de
+                                        resgatar Darius. Devido ao seu ano
+                                        sabático, Bryce não tem permissão para
+                                        usar armas letais de qualquer tipo e
+                                        terá que usar sua inteligência para
+                                        salvar Darius e o seu dia.
+                                    </p>
+                                    <p><b>Diretor:</b> Patrick Hughes</p>
+                                    <p>
+                                        <b>Roteiro:</b> Tom O'Connor | Brandon e
+                                        Phillip Murphy
+                                    </p>
+                                    <p><b>Estreia:</b> 2021</p>
+
+                                    <h4>Elenco</h4>
+                                    <p>
+                                        Ryan Reynolds | Samuel L. Jackson |
+                                        Salma Hayek | Tom Hopper | Antonio
+                                        Banderas | Morgan Freeman
+                                    </p>
+                                    <h4>Avaliação</h4>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="3"
+                            aria-label="Slide 4"
+                        ></button>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            *******************
+            seção em destaque 
+            *******************
+        -->
+
+        <section id="destaque" class="my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="d-flex justify-content-between mb-4">
+                            <h2>Em destaque</h2>
+
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-primary dropdown-toggle justify-content-md-end"
+                                    type="button"
+                                    id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Categoria: TODOS
+                                </button>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="dropdownMenuButton1"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Ação</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Romance</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Comédia</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 
+                    *********************
+                        INICIO - lista de filmes
+                    *********************
+                -->
+
+                <div class="row mb-4">
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <img
+                            class="img-fluid"
+                            src="images/poster_hitimans.jpg"
+                            alt="Pôster do filme Hitiman's"
+                        />
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <img
+                            class="img-fluid"
+                            src="images/poster_mitchel.jpg"
+                            alt="Pôster do filme The Mitchells"
+                        />
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <img
+                            class="img-fluid"
+                            src="images/poster_mmaravilha.jpg"
+                            alt="Pôster do filme Mulher Maravilha"
+                        />
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <img
+                            class="img-fluid"
+                            src="images/poster_quemal.jpg"
+                            alt="Pôster do filme Que mal eu fiz a Deus, dois"
+                        />
+                    </div>
+                </div>
+                <!-- 
+                    *********************
+                        FIM - lista de filmes
+                    *********************
+                -->
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="d-flex justify-content-end">
+                            <button
+                                class="btn btn-primary me-md-2"
+                                type="button"
+                            >
+                                + Carregar mais filmes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            *******************
+                SECAO ULTIMAS AVALIACOES 
+            *******************
+        -->
+
+        <section id="avaliacoes" class="mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 mb-4">
+                        <h2>Últimas avaliações</h2>
+                    </div>
+                </div>
+                <!-- 
+                    *******************
+                        Lista de avaliacoes
+                    *******************
+                 -->
+                <div class="row mb-4">
+                    <div class="col-lg-4 mb-5">
+                        <div class="d-flex">
+                            <figure>
+                                <img
+                                    alt="Image placeholder"
+                                    src="images/pessoa1.jpg"
+                                />
+                            </figure>
+                            <div class="content flex-grow-1">
+                                <h4>Sabrina oliveira</h4>
+                                <p>
+                                    <b>Avaliação:</b> Se tem o David Fincher
+                                    envolvido... Podemos esperar coisa boa. Uma
+                                    mistura de Animatrix + Black Mirror+ I,
+                                    Robot= Love+Death and Robots. Muito bom!!!
+                                </p>
+
+                                <p><b>23/04/2021</b></p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="javascript:;"
+                            class="avatar avatar-sm rounded-circle"
+                        >
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="d-flex">
+                            <figure>
+                                <img
+                                    alt="Image placeholder"
+                                    src="images/pessoa2.jpg"
+                                />
+                            </figure>
+                            <div class="content flex-grow-1">
+                                <h4>Fernando Bastos</h4>
+                                <p>
+                                    <b>Avaliação:</b> Com a mesma fórmula do
+                                    primeiro, não podemos esperar muito de Space
+                                    Jam 2. A intenção de Lebron é boa. E
+                                    envolver as mulheres da liga feminina foi
+                                    uma bela sacada.
+                                </p>
+
+                                <p><b>21/04/2021</b></p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="javascript:;"
+                            class="avatar avatar-sm rounded-circle"
+                        >
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="d-flex">
+                            <figure>
+                                <img
+                                    alt="Image placeholder"
+                                    src="images/pessoa3.jpg"
+                                />
+                            </figure>
+                            <div class="content flex-grow-1">
+                                <h4>Priscila Jardim</h4>
+                                <p>
+                                    <b>Avaliação:</b>
+                                    Obviamente, em "Dupla Explosiva 2", a
+                                    familiaridade é um elemento central nessa
+                                    produção mais barata de Hollywood, mas falta
+                                    o lampejo de invenção...
+                                </p>
+
+                                <p><b>12/04/2021</b></p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="javascript:;"
+                            class="avatar avatar-sm rounded-circle"
+                        >
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="d-flex justify-content-end">
+                            <button
+                                class="btn btn-primary me-md-2"
+                                type="button"
+                            >
+                                + Carregar mais comentários
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            *******************
+                SECAO ENTREVISTAS E MAKING OF
+            *******************
+        -->
+
+        <section id="entrevistas" class="mb-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 mb-4 mt-4">
+                        <h2>Entrevistas & Making of</h2>
+                    </div>
+                </div>
+                <!-- 
+                    *******************
+                        Lista de entrevistas
+                    *******************
+                -->
+                <div class="row mb-4">
+                    <div class="col-md-4 entrevista-container mb-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/WGGBiHhvUrE"
+                            >
+                            </iframe>
+                        </div>
+                        <h3 class="my-2"><b>Filme:</b> Pantera Negra</h3>
+                        <p><b>Diretor:</b> Ryan Coogler</p>
+                        <p><b>Roteiro:</b> Joe Robert Cole e Ryan Coogler</p>
+                        <p><b>Estreia:</b> 2018</p>
+                    </div>
+                    <div class="col-md-4 entrevista-container mb-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/Yg4QAi0dbA8"
+                                title="YouTube video player"
+                            >
+                            </iframe>
+                        </div>
+                        <h3 class="my-2"><b>Filme:</b> Mulher-Maravilha</h3>
+                        <p><b>Diretora:</b> Patty Jenkins</p>
+                        <p><b>Roteiro:</b> Allan Heinberg</p>
+                        <p><b>Estreia:</b> 2017</p>
+                    </div>
+                    <div class="col-md-4 entrevista-container mb-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/qJU_PTMQDqQ"
+                                itle="YouTube video player"
+                            >
+                            </iframe>
+                        </div>
+                        <h3 class="my-2"><b>Série:</b> Stranger things</h3>
+                        <p><b>Diretor:</b> The Duffer Brothers</p>
+                        <p><b>Roteiro:</b> The Duffer Brother</p>
+                        <p><b>Estreia:</b> 2019</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="d-flex justify-content-end">
+                            <button
+                                class="btn btn-primary me-md-2"
+                                type="button"
+                            >
+                                + Carregar mais filmes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+             *
+             *
+            *******************
+                SECAO EXTRAS
+            *******************
+        -->
+
+        <div id="extras" class="my-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <section id="novidades">
+                            <h2 class="mb-4">Novidades</h2>
+
+                            <!-- 
+                                    *
+                                    *
+                                    *******************
+                                        cards 
+                                    *******************
+                                -->
+
+                            <div class="row border-bottom pb-2 mb-4">
+                                <div class="col-md-4">
+                                    <figure class="ratio ratio-4x3">
+                                        <img
+                                            src="images/card_infiltrado.jpg"
+                                            alt="Capa do filme Infiltrado"
+                                            class="card-fluid"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <div class="col-md-8">
+                                    <h4>Infiltrado</h4>
+                                    <p>
+                                        O filme com previsão de estreia para o
+                                        dia 27 de maio deste ano, tem como
+                                        título original <b>Wrath of Man</b>. O
+                                        longa conta a história de Harry (Jason
+                                        Statham), que trabalha em uma empresa de
+                                        de carros-fortes e movimenta grandes
+                                        quantias de dinheiro pela cidade de Los
+                                        Angeles. Quando Harry impede um assalto,
+                                        ele surpreende a todos com suas
+                                        habilidades de combate e suas
+                                        verdadeiras intenções começam a ser
+                                        questionadas.<br /><b>Gênero:</b>
+                                        Ação/Suspense | <b>Diretor:</b> Guy
+                                        Ritchie | <b>Elenco</b>: Jason Statham e
+                                        Jeffrey Donovan
+                                    </p>
+
+                                    <span class="badge rounded-pill bg-primary"
+                                        >hollywood</span
+                                    >
+                                    <span class="badge rounded-pill bg-primary"
+                                        >oscar</span
+                                    >
+                                    <span class="badge rounded-pill bg-primary"
+                                        >melhor filme</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="row border-bottom pb-2 mb-4">
+                                <div class="col-md-4">
+                                    <figure class="ratio ratio-4x3">
+                                        <img
+                                            src="images/card_godizilla.jpg"
+                                            alt="Capa do filme Infiltrado"
+                                            class="img-fluid"
+                                        />
+                                    </figure>
+                                </div>
+                                <div class="col-md-8">
+                                    <h4>Godzilla vs Kong</h4>
+                                    <p>
+                                        Programado para estrear no próximo dia
+                                        29, Godzilla e King Kong se enfrentam em
+                                        uma batalha épica enquanto Kong embarca
+                                        em uma jornada para encontrar seu
+                                        verdadeiro lar. Mas, é surpreendido no
+                                        meio do caminho por um Godzilla
+                                        enfurecido, que está deixando um rastro
+                                        de destruição pelo planeta. Esse combate
+                                        épico entre os dois titãs, instigado por
+                                        forças ocultas, é apenas o começo do
+                                        mistério que jaz no núcleo da Terra..<br />
+                                        <b>Gênero:</b>
+                                        Ação/Aventura/Ficção científica |
+                                        <b>Diretor:</b> Adam Wingard
+                                    </p>
+                                    <span class="badge rounded-pill bg-primary"
+                                        >hollywood</span
+                                    >
+                                    <span class="badge rounded-pill bg-primary"
+                                        >oscar</span
+                                    >
+                                    <span class="badge rounded-pill bg-primary"
+                                        >melhor filme</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="row pb-2 mb-4">
+                                <div class="col-md-4">
+                                    <figure class="ratio ratio-4x3">
+                                        <img
+                                            src="images/card_virtuoso.jpg"
+                                            alt="Capa do filme Infiltrado"
+                                            class="img-fluid"
+                                        />
+                                    </figure>
+                                </div>
+                                <div class="col-md-8">
+                                    <h4>The Virtuoso</h4>
+                                    <p>
+                                        Um assassino profissional precisa
+                                        decodificar as pistas de seu enigmático
+                                        chefe para descobrir quem é seu alvo.
+                                        <b>The Virtuoso</b> acompanha um
+                                        assassino profissional (Anson Mount) que
+                                        acaba com a tranquilidade de uma pequena
+                                        cidade do interior quando aceita uma
+                                        nova tarefa de seu misterioso chefe
+                                        (Anthony Hopkins).<br /><b>Gênero:</b>
+                                        Suspense | <b>Diretor:</b> Guy Ritchie |
+                                        <b>Elenco</b>: Anthony Hopkins, Abbie
+                                        Cornish e Anson Mount
+                                    </p>
+                                    <span class="badge rounded-pill bg-primary"
+                                        >hollywood</span
+                                    >
+                                    <span class="badge rounded-pill bg-primary"
+                                        >oscar</span
+                                    >
+                                    <span class="badge rounded-pill bg-primary"
+                                        >melhor filme</span
+                                    >
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- 
+                        *
+                        *
+                        *******************
+                            barra lateral
+                        *******************
+                    -->
+
+                    <div class="col-lg-4">
+                        <section id="sobre" class="mb-4">
+                            <h2 class="mb-4">Sobre</h2>
+                            <p>
+                                Somos uma equipe pequena, mas com grande
+                                qualidade e credibilidade, que conquistamos ao
+                                longo dos anos por meio do nosso trabalho sério
+                                e reconhecimento do nosso público e empresas
+                                parceiras.<br />Decidimos fazer esse site,
+                                depois de várias experiências frustantes com
+                                outros sites do mesmo seguimento.<br />
+                                Somos apaixonados por filmes, séries,
+                                documentários, animes e afins. E decidimos fazer
+                                da nossa paixão, profissão. Levamos à sério o
+                                quesito respeito, por meio de fontes altamente
+                                fidedignas e pela experiência e expectativa dos
+                                nossos usuários.<br />Quando se trata de
+                                informação, levamos à ferro-e-fogo nossa missão
+                                de informar com exatidão, clareza e seriedade
+                                com um toque descontraído. Entreter com
+                                qualidade, respeito, agilidade, imparcialidade,
+                                liberdade e veracidade.<br />Temos o compromisso
+                                de estar sempre entre os maiores e melhores
+                                publishers da internet, mantendo nossa qualidade
+                                e sempre em busca de inovação. O que nos
+                                garantiu reconhecimento como produtor de
+                                conteúdo online com grande audiência, qualidade
+                                e credibilidade.
+                            </p>
+                        </section>
+                        <section id="editorial">
+                            <h2 class="mb-4">Editorial</h2>
+                            <p>
+                                <i class="bi bi-person-fill"></i>
+                                <b>Redação:</b> Janaina Vasconcelos Alves
+                            </p>
+                            <p>
+                                <i class="bi bi-person-fill"></i>
+                                <b>Pesquisa:</b> Janaina Vasconcelos Alves
+                            </p>
+                            <p>
+                                <i class="bi bi-person-fill"></i>
+                                <b>Gerência geral:</b> Alan Vasconcelos Alves
+                            </p>
+
+                            <h4>Redes sociais</h4>
+                            <div class="social-icons">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+             *
+             *
+            *******************
+                RODAPE
+            *******************
+        -->
+
+        <footer class="py-4">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <p>
+                        Copyright 2021 - Disciplina de Desenvolvimento de
+                        Inferfaces Web - <b>ICEI PUC Minas</b>
+                    </p>
+                    <figure>
+                        <img
+                            src="images/logoPUC.png"
+                            alt="Logotipo PUC Minas"
+                        />
+                    </figure>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript Bundle with Popper -->
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+/*
+    Estilo do site playmoovie
+*/
+
+:root {
+    --purple: #9c27b0;
+}
+
+body {
+    font-size: 14px;
+}
+
+/*
+    Estilo do Header/menu
+*/
+
+nav.navbar {
+    background: var(--purple);
+}
+nav.navbar img {
+    max-width: 200px;
+}
+
+/*
+    Estilo Carrousel
+*/
+#lancamentos {
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background: #000;
+    width: 16px;
+    height: 16px;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 16px;
+}
+
+.carousel-indicators {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.carousel-item .row .col-md-6 p:last-child {
+    margin-bottom: 0;
+}
+
+.carousel-item h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* 
+Estilo Avaliacoes 
+*/
+
+#avaliacoes figure {
+    flex: 0 0 80px;
+    margin-right: 20px;
+}
+#avaliacoes figure img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/* 
+Estilo Entrevistas 
+*/
+
+#entrevistas {
+    background: #ffe7ff;
+}
+
+.entrevista-container p {
+    margin-bottom: 1px;
+}
+
+/* 
+Estilo extras 
+*/
+
+#novidades figure img {
+    object-fit: cover;
+}
+
+.social-icons {
+    font-size: 2rem;
+}
+
+.social-icons a {
+    margin-right: 1rem;
+}
+.social-icons a:last-child {
+    margin-right: 0;
+}
+#editorial {
+    margin-top: 3rem;
+}
+
+/* 
+Estilo rodapé
+*/
+
+footer {
+    background: #f0f0f0;
+}
+footer figure {
+    max-width: 100px;
+}
+footer figure img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/*
+Botoes
+*/
+.btn-primary {
+    background-color: var(--purple);
+    border-color: var(--purple);
+}
+.bg-primary {
+    background-color: var(--purple) !important;
+}
+
+a {
+    color: var(--purple);
+}
